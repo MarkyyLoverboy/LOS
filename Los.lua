@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
         RememberJoins = true
     },
 
-    KeySystem = Farrah
+    KeySystem = HINDOT
 })
 
 -- Home Tab: Insta Samurai Pet
@@ -288,6 +288,7 @@ MiscTab:CreateButton({
 -- Notifications
 Rayfield:Notify({
     Title = "Script Executed",
-    Content = "Crazy Hub loaded successfully with all features!",
+    Content = "KYY Hub loaded successfully with all features!",
     Duration = 1
+
 })
